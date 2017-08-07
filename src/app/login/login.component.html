@@ -1,0 +1,31 @@
+<div class="login">
+  <div class="loginAdmin">
+    <div class="loginAd">
+      <div class="loginTitle">用户登录</div>
+        <div class="login-panel"> 
+            <div class="login-username">  
+                <div class="username-icon"><img src="../../assets/img/loginUser.png"></div>
+                <input id="login-user" class="login-username-ipt login-ipt" [(ngModel)]="loginObj.username" type="text" placeholder="用户名" name="username" autofocus="autofocus"/>  
+            </div>  
+            <div class="login-password">  
+              <div class="username-icon"><img src="../../assets/img/loginPassword.png"></div>
+              <input id="login-psw" class="login-password-ipt login-ipt" [(ngModel)]="loginObj.password"  type="password" placeholder="密码" id="register_password" name="password"/>  
+            </div>  
+       
+            <div class="login-remember">
+                <span class="login-check login-checked" (click)="toggleCheck()"></span><!--@click="toggleCheck"-->
+                <p>记住用户名和密码</p>
+            </div>
+            <div class="login-btn" (click)="login()">
+                登 录
+                <!--@click="login()"-->
+            </div>
+        </div>
+    </div>
+
+    <div class="loginYing">
+        <img src="../../assets/img/yinying.png">
+    </div>
+
+  </div>
+</div>

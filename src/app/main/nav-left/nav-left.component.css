@@ -1,0 +1,69 @@
+.nav-sub{
+    transition: height 1s linear;
+}
+
+.navhead{
+    width: 100%;
+    height: 50px;
+    background-color: #3186db;
+}
+.navhead img{
+    display: block;
+    margin: 0 auto;
+}
+.ad-nav a span{
+    color: #fff;
+}
+.ad-nav li{
+    margin: 0;
+    /*padding: 0;*/
+    color: #fff;
+    list-style: none;
+}
+.ad-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.main-menu{
+    display: block;
+    width: 150px;
+}
+.ad-active {
+    background-color: #373f44;
+}
+.main-menu-title{
+    height: 40px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.sub-menu-ul{
+    display: none;
+}
+
+.ad-active .sub-menu-ul{
+    display: block;
+    /*background-color: #373f44;*/
+}
+.ad-li-active{
+    background-color: #262b30;
+    color: #fff;
+    border-left: 5px solid #389bff
+}
+
+.main-menu-title span{
+    display: inline-block;
+    line-height: 40px;
+}
+.sub-menu{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+}
+.sub-menu span{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    line-height: 40px;
+}

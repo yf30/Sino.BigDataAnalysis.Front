@@ -1,0 +1,15 @@
+.ad-head{
+    display: inline;
+    padding-left: 20px;
+    font-weight: bold;
+    position: relative;
+    top:5px;
+}
+.ad-exit{
+    display: block;
+    float: right;
+    margin-right: 20px;
+}
+.ad-exit-span{
+    cursor: pointer;
+}

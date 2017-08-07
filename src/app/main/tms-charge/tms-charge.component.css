@@ -1,0 +1,102 @@
+#tms-charge{
+    overflow: hidden;
+}
+.tms-charge-left, .tms-charge-right{
+    padding: 10px 0px;
+}
+.tms-charge-right{
+    margin-top: 20px; 
+}
+.tcharge-title{
+    border-left: 4px solid #ECA117;
+    margin-left: 8px; 
+    padding-left: 8px; 
+    font-weight:  800;
+}
+.mol-2-2{
+    width: 99%;
+    float: left;
+    margin-left: 1%;
+    background: #fff;
+}
+.tb-90{
+    width: 95%;
+    margin-left: 2.5%;
+}
+.chart{
+    margin: 20px 0px;;
+}
+.nav-tabs li a{
+    border-bottom: none;
+}
+.nav-tabs li.active a{
+  font-weight: 800;
+  /*border-left: none;*/
+  border-top: 2px solid #F89F07;
+}
+.table-body{
+    width: 100%;
+    height: 360px;
+}
+.shbar-btn{
+    line-height: 14px;
+}
+.shbar-btn:hover, .shbar-btn:focus{
+    color: #fff;
+}
+.queryPanel{
+     margin: 0 20px;
+}
+ .shbar-left{
+     width: 85%;
+ }   
+.shbar-right{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 15%;
+    height: 100%;
+    background: #EEEEEE;
+}
+.shbar-right button{
+    margin: 45px 35px
+}
+.bott{
+    margin-top:10px; 
+}
+.main-shbar label{
+ width: 90px;
+}
+.main-shbar{
+    height: 100%;
+    font-size: 14px;
+    line-height: 40px;
+    background: #F6F6F6;
+    padding: 10px 20px;
+    position: relative;
+}
+.main-shbar label{
+    text-align: left;
+}
+.m-r-xl{
+    margin-right:20px; 
+}
+
+#querydateRange{
+    width: 220px;
+    line-height: 26px; 
+}
+.table-body{
+    padding: 0px 15px;
+}
+
+.dashed{
+    border-bottom: 1px dashed #ddd;
+}
+
+.mar-l{
+    margin-left:60px; 
+}
+.mar-lx{
+    margin-left:35px; 
+}
