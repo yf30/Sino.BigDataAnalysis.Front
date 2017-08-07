@@ -21,6 +21,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# angular-cli必须要最新，才可以使用命令ng serve --port 80  --disable-host-check，然后这样就可以使用80端口号
 Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
